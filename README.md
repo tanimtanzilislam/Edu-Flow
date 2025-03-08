@@ -17,7 +17,7 @@ Edu-Flow is an online school management system designed to streamline academic o
 		 <tr> 
 			 <td>20220104071</td> 
 			 <td>Zarif Mahmud</td> 
-			 <td></td> 
+			 <td>zarifmahmud250@gmail.com</td> 
 			 <td>Lead (Frontend+Backend+Database)</td> 
 		 </tr> 
 		 <tr> 
@@ -206,12 +206,14 @@ _____________________________________________________________________________
 					<li>Admin registration and login pages</li>
 					<li>Admin authentication</li>
 					<li>Admin Dashboard setup</li>
-					<li>Academic management</li>
+					<li>Academic year management</li>
 					<li>Add and view Record of academic year</li>
 					<li>Class Management</li>
 					<li>Add and view Record of Classes</li>
-					<li>Student management</li>
-					<li>Add and View student records</li>
+					<li>Student management: create/add</li>
+                                        <li>Student management: Studnet list with filter</li>
+					<li>Student management:update/delete</li>
+                                        
 				</ul>
 			</td>
 		</tr> 
@@ -219,12 +221,18 @@ _____________________________________________________________________________
 			<td>Checkpoint 2</td> 
 			<td>
 				<ul>
-					<li>Table for User, Restaurants, and MenuItem at Database</li>
-					<li>Order History</li>
-					<li>Multi Item Cart functionality</li>
-					<li>Approve or Reject new Restaurants registration by Admin</li>
-					<li>Restaurant Dashboard</li>
-					<li>Admin Dashboard</li>
+
+                                        <li>Student management:login/logout</li>
+					<li>Student management:Change password</li>
+					<li>Add and View student records</li>
+					<li>Fee head management</li>
+					<li>Fee Structure Management </li>
+					<li>Birthday wish for students</li>
+					<li>Edit Delete Announcement</li>
+					<li>Show Announcement On student Panel</li>
+					<li>CRUD: Subject Management</li>
+					
+					
 				</ul>
 			</td>   
 		</tr> 
@@ -232,11 +240,15 @@ _____________________________________________________________________________
 			<td>Checkpoint 3</td> 
 			<td>
 				<ul>
-					<li>Customers can search restaurants by name or foodItem name</li>
-					<li>Customers can leave reviews for Restaurants</li>
-					<li>Admin can remove inactive or problematic restaurants</li>
-					<li>Payment options by Stripe</li>
-					<li>Approve or Reject new Restaurants registration by Admin</li>
+                                         <li>Add/read assign subject to class</li>
+					<li>Edit/delete/filter assign subject to class</li>
+					<li>CRUD:Teacher Management</li>
+					<li>Teacher login/logout system</li>
+                                        <li>Annoncement Management</li>
+					<li>Assign Teacher to class</li>
+					<li>list/update/deleteassign techer to class</li>
+					<li>Showing teachers record</li>
+					
 				</ul>
 			</td>  
 		</tr> 
