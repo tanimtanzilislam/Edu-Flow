@@ -229,14 +229,16 @@ Figma Design   : <a href="https://www.figma.com/design/698MIXaZPQRPmjMFVvdZzh/Un
 			 <td>
 				 <ul>
 					<li>Frontend, Backend, Database setup</li>
-					<li>Customer registration and login pages</li>
-					<li>customer authentication</li>
-                    <li>Admin panel setup</li>
-                    <li>Restaurant authentication</li>
-                    <li>Restaurant panel setup</li>
-                    <li>Customer Profile Setup</li>
-                    <li>Admin Backend Category</li>
-                    <li>fetching a list of restaurants and  menu display page</li>
+					<li>Admin registration and login pages</li>
+					<li>Admin authentication</li>
+                    <li>Admin Dashboard setup</li>
+                    <li>Academic management</li>
+                    <li>Add and view Record of academic year</li>
+                    <li>Class Management</li>
+                    <li>Add and view Record of Classes</li>
+                    <li>Student management</li>
+		     <li>Add and View studens records</li>
+					 
 				</ul>
 			</td>
 		 </tr> 
