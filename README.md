@@ -111,11 +111,14 @@ Figma Design   : <a href="https://www.figma.com/design/698MIXaZPQRPmjMFVvdZzh/Un
 	<li>Manage Fee Payments & Transactions</li>
 	<li>Announcement Management for Important Updates</li> 
 </ul>
+## API Endpoints
+### Authentication  
+
 #### Teacher Authentication
 - GET /api/teacher/login - Show login page for teachers.
 - POST /api/teacher/authenticate - Authenticate teacher login.
 - GET /api/teacher/dashboard - Teacher dashboard (requires authentication).
-- GET /api/teacher/logout - Logout teacher.
+- GET /api/teacher/logout - Logout teacher
 
 #### Student Authentication
 - GET /api/student/login - Show login page for students.
