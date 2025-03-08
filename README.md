@@ -1,5 +1,5 @@
 # Cravings
-Cravings is an online based multi-restaurant food ordering app offering diverse cuisines. Explore menus, customize meals, and enjoy quick delivery. With features like favorites, order tracking, and secure payments, it simplifies food ordering. Craving is your go-to platform for delicious meals delivered effortlessly.
+Edu-Flow is an online school management system designed to streamline academic operations. Manage student records, schedule classes, and facilitate seamless communication between teachers, students. With features like automated grading, secure payments, Edu-Flow simplifies school administration, making learning more efficient and organized.
 
   
 
