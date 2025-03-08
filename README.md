@@ -106,10 +106,10 @@ Figma Design   : <a href="https://www.figma.com/design/698MIXaZPQRPmjMFVvdZzh/Un
 
 ### Admin Section
 <ul>
-	<li>Multi Admin Authentication</li>
-	<li>Forget Password</li>
-	<li>Admin Panel</li>
-	<li>Manage Order Form</li>
+	<li>Single Admin Authentication</li>
+	<li>Forgot Password & Account Recovery</li>
+	<li>Manage Student & Teacher Records</li>
+	<li>Manage Fee Payments & Transactions</li>
 </ul>
 
 ##  API Endpoints
