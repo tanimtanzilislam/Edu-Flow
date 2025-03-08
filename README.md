@@ -114,9 +114,9 @@ Figma Design   : <a href="https://www.figma.com/design/698MIXaZPQRPmjMFVvdZzh/Un
 </ul>
 
 ## **Teacher Authentication**
-POST /api/teacher/login - Teacher login.
-POST /api/teacher/authenticate - Teacher authentication.
-POST /api/teacher/logout - Teacher logout.
+**POST** /api/teacher/login - Teacher login.
+**POST** /api/teacher/authenticate - Teacher authentication.
+**POST** /api/teacher/logout - Teacher logout.
 ## Milestones
 <table>
 	 <thead> 
