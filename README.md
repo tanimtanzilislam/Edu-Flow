@@ -211,9 +211,8 @@ _____________________________________________________________________________
 					<li>Class Management</li>
 					<li>Add and view Record of Classes</li>
 					<li>Student management: create/add</li>
-                                        <li>Student management: Studnet list with filter</li>
-					<li>Student management:update/delete</li>
-                                        
+					<li>Student management: Student list with filter</li>
+					<li>Student management: update/delete</li>
 				</ul>
 			</td>
 		</tr> 
@@ -221,18 +220,15 @@ _____________________________________________________________________________
 			<td>Checkpoint 2</td> 
 			<td>
 				<ul>
-
-                                        <li>Student management:login/logout</li>
-					<li>Student management:Change password</li>
+					<li>Student management: login/logout</li>
+					<li>Student management: Change password</li>
 					<li>Add and View student records</li>
 					<li>Fee head management</li>
-					<li>Fee Structure Management </li>
+					<li>Fee Structure Management</li>
 					<li>Birthday wish for students</li>
-					<li>Edit Delete Announcement</li>
-					<li>Show Announcement On student Panel</li>
+					<li>Edit/Delete Announcement</li>
+					<li>Show Announcement on student Panel</li>
 					<li>CRUD: Subject Management</li>
-					
-					
 				</ul>
 			</td>   
 		</tr> 
@@ -240,15 +236,14 @@ _____________________________________________________________________________
 			<td>Checkpoint 3</td> 
 			<td>
 				<ul>
-                                         <li>Add/read assign subject to class</li>
+					<li>Add/read assign subject to class</li>
 					<li>Edit/delete/filter assign subject to class</li>
-					<li>CRUD:Teacher Management</li>
+					<li>CRUD: Teacher Management</li>
 					<li>Teacher login/logout system</li>
-                                        <li>Annoncement Management</li>
+					<li>Announcement Management</li>
 					<li>Assign Teacher to class</li>
-					<li>list/update/deleteassign techer to class</li>
+					<li>List/update/delete assign teacher to class</li>
 					<li>Showing teachers record</li>
-					
 				</ul>
 			</td>  
 		</tr> 
