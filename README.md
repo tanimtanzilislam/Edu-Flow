@@ -111,8 +111,8 @@ Figma Design   : <a href="https://www.figma.com/design/698MIXaZPQRPmjMFVvdZzh/Un
 	<li>Manage Fee Payments & Transactions</li>
 	<li>Announcement Management for Important Updates</li> 
 </ul>
-## API Endpoints
-### Authentication  
+###API Endpoints
+###Authentication  
 
 #### Teacher Authentication
 - GET /api/teacher/login - Show login page for teachers.
