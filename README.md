@@ -74,10 +74,7 @@ The target audience for Edu-Flow includes schools, colleges, and educational ins
 			 <td>phpMyAdmin</td>  
 		 </tr> 
 		 
-		 <tr> 
-			 <td>Rendering Method</td> 
-			 <td>CSR (Client-Side Rendering)</td> 
-		 </tr> 
+		 
 	 </tbody> 
  </table>
   
