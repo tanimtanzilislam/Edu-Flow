@@ -191,54 +191,32 @@ _____________________________________________________________________________
 
 ## Milestones
 <table>
-	 <thead> 
-		 <tr> 
-			 <th>Milestones</th> 
-			 <th>We Cover</th> 
-		 </tr> 
-	 </thead> 
-	 <tbody> 
-		 <tr> 
-			 <td>Checkpoint 1</td> 
-			 <td>
-				 <ul>
+	<thead> 
+		<tr> 
+			<th>Milestones</th> 
+			<th>We Cover</th> 
+		</tr> 
+	</thead> 
+	<tbody> 
+		<tr> 
+			<td>Checkpoint 1</td> 
+			<td>
+				<ul>
 					<li>Frontend, Backend, Database setup</li>
 					<li>Admin registration and login pages</li>
 					<li>Admin authentication</li>
-                    <li>Admin Dashboard setup</li>
-                    <li>Academic management</li>
-                    <li>Add and view Record of academic year</li>
-                    <li>Class Management</li>
-                    <li>Add and view Record of Classes</li>
-                    <li>Student management</li>
-		     <li>Add and View studens records</li>
-					 
+					<li>Admin Dashboard setup</li>
+					<li>Academic management</li>
+					<li>Add and view Record of academic year</li>
+					<li>Class Management</li>
+					<li>Add and view Record of Classes</li>
+					<li>Student management</li>
+					<li>Add and View student records</li>
 				</ul>
 			</td>
-		 </tr> 
-		 <tr> 
-			 <td>Checkpoint 2</td> 
-			 <td>
-				 <ul>
-                     <li>Table for User, Restaurants and MenuItem at Database</li>
-					 <li>Order History</li>
-					 <li>Multi Item Cart functionality</li>
-					 <li>Approve or Reject new Restaurants registration by Admin</li>
-					 <li>Restaurant Dash Board</li>
-					 <li>Admin Dashboard</li>
-				 </ul>
-			 </td>   
-		 </tr> 
-		 <tr> 
-			 <td>Checkpoint 3</td> 
-			 <td><ul>
-					 <li>Customers can search restaurants by name or foodItem name</li>
-					 <li>Customers can leave reviews for Restaurants</li>
-					 <li>Admin can remove inactive or problematic restaurants</li>
-					 <li>Payment options by Stripe</li>
-					 <li>Approve or Reject new Restaurants registration by Admin</li>
-				 </ul>
-				</td>  
-		 </tr> 
-	 </tbody> 
- </table>
+		</tr> 
+		<tr> 
+			<td>Checkpoint 2</td> 
+			<td>
+				<ul>
+					<
