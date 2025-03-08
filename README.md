@@ -1,4 +1,4 @@
-# Cravings
+# Edu-Flow
 Edu-Flow is an online school management system designed to streamline academic operations. Manage student records, schedule classes, and facilitate seamless communication between teachers, students. With features like automated grading, secure payments, Edu-Flow simplifies school administration, making learning more efficient and organized.
 
   
