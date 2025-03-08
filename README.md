@@ -95,7 +95,6 @@ Figma Design   : <a href="https://www.figma.com/design/698MIXaZPQRPmjMFVvdZzh/Un
 	
 </ul>
 
-### Teacher Section
 <ul>
 	<li>Multi-Teacher Authentication</li>
 	<li>Single Admin for a Single Institution</li>
@@ -112,7 +111,9 @@ Figma Design   : <a href="https://www.figma.com/design/698MIXaZPQRPmjMFVvdZzh/Un
 	<li>Manage Fee Payments & Transactions</li>
 	<li>Announcement Management for Important Updates</li> 
 </ul>
-
+##  API Endpoints
+### **Authentication**
+### Teacher Section
 ## **Teacher Authentication**
 **POST** /api/teacher/login - Teacher login.
 **POST** /api/teacher/authenticate - Teacher authentication.
