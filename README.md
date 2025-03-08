@@ -88,16 +88,14 @@ Figma Design   : <a href="https://www.figma.com/design/698MIXaZPQRPmjMFVvdZzh/Un
 ### User Section
 <ul>
 	<li>Multi User Authentication</li>
-	<li>Menu, Product, Gallery</li>
-	<li>CRUD operations</li>
-	<li>Search/Filter</li>
-	<li>Apply Coupon</li>
-	<li>Cart Page</li>
-	<li>Apply Cash on Delivery</li>
-	<li>Apply Online Payment</li>
+	<li>Student, Teacher, and Admin Profiles</li>
+	<li>CRUD Operations for User Management</li>
+	<li>Search/Filter Students & Staff</li>
+	<li>Fee Payment & Invoice Management</li>
+	
 </ul>
 
-### Restaurant Section
+### Teacher Section
 <ul>
 	<li>Multi Restaurant Authentication</li>
 	<li>Multi Admin for a single Restaurant</li>
