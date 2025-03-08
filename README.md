@@ -111,110 +111,81 @@ Figma Design   : <a href="https://www.figma.com/design/698MIXaZPQRPmjMFVvdZzh/Un
 	<li>Manage Fee Payments & Transactions</li>
 	<li>Announcement Management for Important Updates</li> 
 </ul>
-##  API Endpoints
-### *Authentication*
+#### Teacher Authentication
+- GET /api/teacher/login - Show login page for teachers.
+- POST /api/teacher/authenticate - Authenticate teacher login.
+- GET /api/teacher/dashboard - Teacher dashboard (requires authentication).
+- GET /api/teacher/logout - Logout teacher.
 
-#### Customer Authentication
-
--   *POST* /api/customers/register - Customer registration.
--   *POST* /api/customers/login - Customer login.
--   *POST* /api/customers/logout - Customer logout.
--   *POST* /api/customers/forgot-password - Forgot password (email recovery).
--   *POST* /api/customers/reset-password - Reset password with token.
-
-#### Restaurant Authentication
-
--   *POST* /api/restaurants/register - Restaurant owner registration.
--   *POST* /api/restaurants/login - Restaurant owner login.
--   *POST* /api/restaurants/logout - Restaurant owner logout.
--   *POST* /api/restaurants/forgot-password - Forgot password.
--   *POST* /api/restaurants/reset-password - Reset password with token.
+#### Student Authentication
+- GET /api/student/login - Show login page for students.
+- POST /api/student/authenticate - Authenticate student login.
+- GET /api/student/dashboard - Student dashboard (requires authentication).
+- GET /api/student/logout - Logout student.
+- GET /api/student/change-password - Show change password page.
+- POST /api/student/update-password - Update student password.
 
 #### Admin Authentication
+- GET /api/admin/login - Show login page for admin.
+- GET /api/admin/register - Show registration page for admin.
+- POST /api/admin/login - Authenticate admin login.
+- GET /api/admin/logout - Logout admin.
+- GET /api/admin/dashboard - Admin dashboard (requires authentication).
+- GET /api/admin/form - Show form page for admin.
+- GET /api/admin/table - Show table page for admin.
 
--   *POST* /api/admin/login - Admin login.
--   *POST* /api/admin/logout - Admin logout.
+#### Academic Year Management
+- GET /api/academic-year/create - Show form to create an academic year.
+- POST /api/academic-year/store - Store a new academic year.
+- GET /api/academic-year/read - Fetch all academic years.
+- GET /api/academic-year/delete/{id} - Delete an academic year.
+- GET /api/academic-year/edit/{id} - Show form to edit an academic year.
+- POST /api/academic-year/update - Update an academic year.
 
-----------
+#### Announcement Management
+- GET /api/announcement/create - Show form to create an announcement.
+- POST /api/announcement/store - Store a new announcement.
+- GET /api/announcement/read - Fetch all announcements.
+- GET /api/announcement/edit/{id} - Show form to edit an announcement.
+- POST /api/announcement/update/{id} - Update an announcement.
+- GET /api/announcement/delete/{id} - Delete an announcement.
 
-### *Customer Management*
+#### Class Management
+- GET /api/class/create - Show form to create a class.
+- POST /api/class/store - Store a new class.
+- GET /api/class/read - Fetch all classes.
+- GET /api/class/read/edit/{id} - Show form to edit a class.
+- POST /api/class/update - Update a class.
+- GET /api/class/delete/{id} - Delete a class.
 
--   *GET* /api/customers/me - Fetch customer details (My Account).
--   *PUT* /api/customers/me - Update customer account details.
--   *DELETE* /api/customers/me - Delete customer account.
+#### Subject Management
+- GET /api/subject/create - Show form to create a subject.
+- POST /api/subject/store - Store a new subject.
+- GET /api/subject/read - Fetch all subjects.
+- GET /api/subject/delete/{id} - Delete a subject.
+- GET /api/subject/edit/{id} - Show form to edit a subject.
+- POST /api/subject/update/{id} - Update a subject.
 
-----------
+#### Assign Subjects to Class
+- GET /api/assign-subject/create - Show form to assign a subject to a class.
+- POST /api/assign-subject/store - Store subject assignment.
+- GET /api/assign-subject/read - Fetch all assigned subjects.
+- GET /api/assign-subject/delete/{id} - Delete an assigned subject.
+- GET /api/assign-subject/edit/{id} - Show form to edit an assigned subject.
+- POST /api/assign-subject/update/{id} - Update an assigned subject.
 
-### *Restaurant Management*
+#### Teacher Management
+- GET /api/teacher/create - Show form to create a teacher.
+- POST /api/teacher/store - Store a new teacher.
+- GET /api/teacher/read - Fetch all teachers.
+- GET /api/teacher/edit/{id} - Show form to edit a teacher.
+- POST /api/teacher/update/{id} - Update a teacher.
+- GET /api/teacher/delete/{id} - Delete a teacher.
 
-#### By Restaurant Owner
-
--   *GET* /api/restaurants/me - Fetch restaurant owner details.
--   *PUT* /api/restaurants/me - Update restaurant owner details.
--   *DELETE* /api/restaurants/me - Delete restaurant account.
--   *GET* /api/restaurants/my-orders - View orders placed at their restaurant.
--   *PATCH* /api/restaurants/my-orders/:orderId - Update order status (e.g., accepted, prepared, delivered).
--   *PATCH* /api/restaurants/menu/prices - Update menu item prices.
--   *POST* /api/restaurants/menu - Add a new menu item.
--   *PUT* /api/restaurants/menu/:itemId - Edit menu item details.
--   *DELETE* /api/restaurants/menu/:itemId - Remove menu item.
-
-#### By Admin
-
--   *GET* /api/restaurants - Fetch all restaurants.
--   *PATCH* /api/restaurants/:restaurantId/approve - Approve restaurant registration.
--   *DELETE* /api/restaurants/:restaurantId - Remove restaurant.
-
-----------
-
-### *Order Management*
-
-#### Customer Orders
-
--   *POST* /api/orders - Place an order with multiple items from a restaurant.
--   *GET* /api/orders - View all orders by the customer.
--   *GET* /api/orders/:orderId - View details of a specific order.
--   *DELETE* /api/orders/:orderId - Cancel an order (if not yet processed).
-
-#### Payment Options
-
--   *POST* /api/payments/cash-on-delivery - Apply cash on delivery.
--   *POST* /api/payments/online - Apply online payment (e.g., via bKash, card).
--   *POST* /api/payments/verify/:paymentId - Verify online payment.
-
-----------
-
-### *Menu Management*
-
--   *GET* /api/menu - Fetch menu for a restaurant.
--   *GET* /api/menu/:itemId - Fetch details of a specific menu item.
-
-----------
-
-### *Admin Panel Management*
-
--   *GET* /api/admin/dashboard - Admin dashboard data (e.g., total sales, active restaurants).
--   *GET* /api/admin/customers - Fetch all customers.
--   *DELETE* /api/admin/customers/:customerId - Remove a customer.
--   *GET* /api/admin/restaurants - Fetch all restaurants.
--   *PATCH* /api/admin/restaurants/:restaurantId - Modify restaurant details.
--   *GET* /api/admin/orders - View all orders.
-
-----------
-
-### *Search and Filtering*
-
--   *GET* /api/restaurants/search - Search restaurants by name, cuisine, or location.
--   *GET* /api/menu/search - Search menu items across restaurants.
-
-----------
-
-### *Reviews and Ratings*
-
--   *POST* /api/reviews - Add a review for a restaurant.
--   *GET* /api/reviews/:restaurantId - Fetch reviews for a restaurant.
--   *PATCH* /api/reviews/:reviewId - Edit a review.
--   *DELETE* /api/reviews/:reviewId - Delete a review.<?php
+#### Assign Teacher to Class
+- GET /api/assign-teacher/create - Show form to assign a teacher to a class.
+- POST /api/assign-teacher/store - Store teacher assignment.
+- GET /api/assign-teacher/list - Fetch assigned teachers.
 ## Milestones
 <table>
 	 <thead> 
