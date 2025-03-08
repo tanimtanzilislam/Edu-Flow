@@ -110,6 +110,7 @@ Figma Design   : <a href="https://www.figma.com/design/698MIXaZPQRPmjMFVvdZzh/Un
 	<li>Forgot Password & Account Recovery</li>
 	<li>Manage Student & Teacher Records</li>
 	<li>Manage Fee Payments & Transactions</li>
+	<li>Announcement Management for Important Updates</li> 
 </ul>
 
 ##  API Endpoints
