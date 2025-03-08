@@ -29,8 +29,8 @@ Edu-Flow is an online school management system designed to streamline academic o
 		 <tr> 
 			 <td>20220104063</td> 
 			 <td>Sanaf Salehin</td> 
-			 <td></td> 
-			 <td></td>   
+			 <td>sanafsalehin@gmail.com</td> 
+			 <td>Frontend+Backend+Database</td>   
 		 </tr> 
 		 <tr> 
 			 <td>20220104069</td> 
