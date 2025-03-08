@@ -33,10 +33,10 @@ Edu-Flow is an online school management system designed to streamline academic o
 			 <td></td>   
 		 </tr> 
 		 <tr> 
-			 <td>20220104099</td> 
-			 <td>Prottoy Roy</td> 
-			 <td>prottoyroy99@gmail.com</td> 
-			 <td>Frontend</td>   
+			 <td>20220104069</td> 
+			 <td>Afia Adilah</td> 
+			 <td>afiaadilah246@gmail.com</td> 
+			 <td>Frontend+Backend</td>   
 		 </tr> 
 	 </tbody> 
  </table>
