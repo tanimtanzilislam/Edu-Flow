@@ -80,7 +80,7 @@ The target audience for Edu-Flow includes schools, colleges, and educational ins
   
 ## UI Design
 
-Figma Design   : <a href="https://www.figma.com/design/mIyp8Q47ff0GPxNW5YWKlt/Cravings?node-id=0-1&t=ZzZFWT9q5wwfBqNU-1">Figma Design Link</a>
+Figma Design   : <a href="https://www.figma.com/design/698MIXaZPQRPmjMFVvdZzh/Untitled">Figma Design Link</a>
 
 
 ## Project Features
