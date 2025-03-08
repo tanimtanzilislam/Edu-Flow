@@ -15,16 +15,16 @@ Edu-Flow is an online school management system designed to streamline academic o
 	 </thead> 
 	 <tbody> 
 		 <tr> 
-			 <td>20220104095</td> 
-			 <td>Nimur Rahman Sharif (Tasrik)</td> 
-			 <td>shariftasrik12@gmail.com</td> 
-			 <td>Lead (Frontend+Backend)</td> 
+			 <td>20220104071</td> 
+			 <td>Zarif Mahmud</td> 
+			 <td></td> 
+			 <td>Lead (Frontend+Backend+Database)</td> 
 		 </tr> 
 		 <tr> 
-			 <td>20220104089</td> 
-			 <td>Afnan Zaman Ifty</td> 
-			 <td>zamanafnan62@gmail.com</td> 
-			 <td>Backend</td>   
+			 <td>20220104060</td> 
+			 <td>Ma.Tanzil Islam</td> 
+			 <td>Md.Tanzil Islam</td> 
+			 <td>Frontend+backend+Database</td>   
 		 </tr> 
 		 <tr> 
 			 <td>20220104080</td> 
