@@ -97,12 +97,11 @@ Figma Design   : <a href="https://www.figma.com/design/698MIXaZPQRPmjMFVvdZzh/Un
 
 ### Teacher Section
 <ul>
-	<li>Multi Restaurant Authentication</li>
-	<li>Multi Admin for a single Restaurant</li>
-	<li>Menu, Product, Coupon, Gallery for new Customer</li>
-	<li>CRUD operations</li>
-	<li>Order Form</li>
-	<li>Download Order Invoice</li>
+	<li>Multi-Teacher Authentication</li>
+	<li>Single Admin for a Single Institution</li>
+	<li>Manage Courses,Subjects</li>
+	<li>CRUD Operations for Class & Student Records</li>
+	
 </ul>
 
 ### Admin Section
