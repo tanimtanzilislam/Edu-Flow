@@ -186,6 +186,9 @@ Figma Design   : <a href="https://www.figma.com/design/698MIXaZPQRPmjMFVvdZzh/Un
 - GET /api/assign-teacher/create - Show form to assign a teacher to a class.
 - POST /api/assign-teacher/store - Store teacher assignment.
 - GET /api/assign-teacher/list - Fetch assigned teachers.
+
+_____________________________________________________________________________
+
 ## Milestones
 <table>
 	 <thead> 
