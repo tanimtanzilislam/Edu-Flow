@@ -23,14 +23,14 @@ Edu-Flow is an online school management system designed to streamline academic o
 		 <tr> 
 			 <td>20220104060</td> 
 			 <td>Ma.Tanzil Islam</td> 
-			 <td>Md.Tanzil Islam</td> 
+			 <td>tanimtanzilislam9@gmail.com</td> 
 			 <td>Frontend+backend+Database</td>   
 		 </tr> 
 		 <tr> 
-			 <td>20220104080</td> 
-			 <td>Utsha Karmakar</td> 
-			 <td>utshakarmakar04109@gmail.com</td> 
-			 <td>Backend</td>   
+			 <td>20220104063</td> 
+			 <td>Sanaf Salehin</td> 
+			 <td></td> 
+			 <td></td>   
 		 </tr> 
 		 <tr> 
 			 <td>20220104099</td> 
