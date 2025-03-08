@@ -113,110 +113,92 @@ Figma Design   : <a href="https://www.figma.com/design/698MIXaZPQRPmjMFVvdZzh/Un
 	<li>Announcement Management for Important Updates</li> 
 </ul>
 
-##  API Endpoints
-### **Authentication**
-
-#### Customer Authentication
-
--   **POST** `/api/customers/register` - Customer registration.
--   **POST** `/api/customers/login` - Customer login.
--   **POST** `/api/customers/logout` - Customer logout.
--   **POST** `/api/customers/forgot-password` - Forgot password (email recovery).
--   **POST** `/api/customers/reset-password` - Reset password with token.
-
-#### Restaurant Authentication
-
--   **POST** `/api/restaurants/register` - Restaurant owner registration.
--   **POST** `/api/restaurants/login` - Restaurant owner login.
--   **POST** `/api/restaurants/logout` - Restaurant owner logout.
--   **POST** `/api/restaurants/forgot-password` - Forgot password.
--   **POST** `/api/restaurants/reset-password` - Reset password with token.
-
-#### Admin Authentication
-
--   **POST** `/api/admin/login` - Admin login.
--   **POST** `/api/admin/logout` - Admin logout.
-
-----------
-
-### **Customer Management**
-
--   **GET** `/api/customers/me` - Fetch customer details (My Account).
--   **PUT** `/api/customers/me` - Update customer account details.
--   **DELETE** `/api/customers/me` - Delete customer account.
-
-----------
-
-### **Restaurant Management**
-
-#### By Restaurant Owner
-
--   **GET** `/api/restaurants/me` - Fetch restaurant owner details.
--   **PUT** `/api/restaurants/me` - Update restaurant owner details.
--   **DELETE** `/api/restaurants/me` - Delete restaurant account.
--   **GET** `/api/restaurants/my-orders` - View orders placed at their restaurant.
--   **PATCH** `/api/restaurants/my-orders/:orderId` - Update order status (e.g., accepted, prepared, delivered).
--   **PATCH** `/api/restaurants/menu/prices` - Update menu item prices.
--   **POST** `/api/restaurants/menu` - Add a new menu item.
--   **PUT** `/api/restaurants/menu/:itemId` - Edit menu item details.
--   **DELETE** `/api/restaurants/menu/:itemId` - Remove menu item.
-
-#### By Admin
-
--   **GET** `/api/restaurants` - Fetch all restaurants.
--   **PATCH** `/api/restaurants/:restaurantId/approve` - Approve restaurant registration.
--   **DELETE** `/api/restaurants/:restaurantId` - Remove restaurant.
-
-----------
-
-### **Order Management**
-
-#### Customer Orders
-
--   **POST** `/api/orders` - Place an order with multiple items from a restaurant.
--   **GET** `/api/orders` - View all orders by the customer.
--   **GET** `/api/orders/:orderId` - View details of a specific order.
--   **DELETE** `/api/orders/:orderId` - Cancel an order (if not yet processed).
-
-#### Payment Options
-
--   **POST** `/api/payments/cash-on-delivery` - Apply cash on delivery.
--   **POST** `/api/payments/online` - Apply online payment (e.g., via bKash, card).
--   **POST** `/api/payments/verify/:paymentId` - Verify online payment.
-
-----------
-
-### **Menu Management**
-
--   **GET** `/api/menu` - Fetch menu for a restaurant.
--   **GET** `/api/menu/:itemId` - Fetch details of a specific menu item.
-
-----------
-
-### **Admin Panel Management**
-
--   **GET** `/api/admin/dashboard` - Admin dashboard data (e.g., total sales, active restaurants).
--   **GET** `/api/admin/customers` - Fetch all customers.
--   **DELETE** `/api/admin/customers/:customerId` - Remove a customer.
--   **GET** `/api/admin/restaurants` - Fetch all restaurants.
--   **PATCH** `/api/admin/restaurants/:restaurantId` - Modify restaurant details.
--   **GET** `/api/admin/orders` - View all orders.
-
-----------
-
-### **Search and Filtering**
-
--   **GET** `/api/restaurants/search` - Search restaurants by name, cuisine, or location.
--   **GET** `/api/menu/search` - Search menu items across restaurants.
-
-----------
-
-### **Reviews and Ratings**
-
--   **POST** `/api/reviews` - Add a review for a restaurant.
--   **GET** `/api/reviews/:restaurantId` - Fetch reviews for a restaurant.
--   **PATCH** `/api/reviews/:reviewId` - Edit a review.
--   **DELETE** `/api/reviews/:reviewId` - Delete a review.
+Authentication
+Teacher Authentication
+POST /teacher/login - Teacher login.
+POST /teacher/authenticate - Teacher authenticate.
+POST /teacher/logout - Teacher logout.
+Student Authentication
+POST /student/login - Student login.
+POST /student/authenticate - Student authenticate.
+POST /student/logout - Student logout.
+Admin Authentication
+POST /admin/login - Admin login.
+POST /admin/authenticate - Admin authenticate.
+POST /admin/logout - Admin logout.
+Teacher Management
+GET /teacher/dashboard - Teacher dashboard.
+GET /teacher/create - Create a new teacher.
+POST /teacher/store - Store a new teacher.
+GET /teacher/read - View list of teachers.
+GET /teacher/edit/{id} - Edit teacher details.
+POST /teacher/update/{id} - Update teacher details.
+GET /teacher/delete/{id} - Delete a teacher.
+Student Management
+GET /student/dashboard - Student dashboard.
+GET /student/create - Create a new student.
+POST /student/store - Store a new student.
+GET /student/read - View list of students.
+GET /student/edit/{id} - Edit student details.
+POST /student/update/{id} - Update student details.
+GET /student/delete/{id} - Delete a student.
+Academic Year Management
+GET /academic-year/create - Create a new academic year.
+POST /academic-year/store - Store an academic year.
+GET /academic-year/read - View list of academic years.
+GET /academic-year/edit/{id} - Edit an academic year.
+POST /academic-year/update/{id} - Update academic year details.
+GET /academic-year/delete/{id} - Delete an academic year.
+Announcement Management
+GET /announcement/create - Create a new announcement.
+POST /announcement/store - Store an announcement.
+GET /announcement/read - View all announcements.
+GET /announcement/edit/{id} - Edit an announcement.
+POST /announcement/update/{id} - Update an announcement.
+GET /announcement/delete/{id} - Delete an announcement.
+Class Management
+GET /class/create - Create a new class.
+POST /class/store - Store a class.
+GET /class/read - View all classes.
+GET /class/edit/{id} - Edit class details.
+POST /class/update/{id} - Update class details.
+GET /class/delete/{id} - Delete a class.
+Subject Management
+GET /subject/create - Create a new subject.
+POST /subject/store - Store a subject.
+GET /subject/read - View all subjects.
+GET /subject/edit/{id} - Edit subject details.
+POST /subject/update/{id} - Update subject details.
+GET /subject/delete/{id} - Delete a subject.
+Assign Subject to Class
+GET /assign-subject/create - Assign a subject to a class.
+POST /assign-subject/store - Store subject-class assignment.
+GET /assign-subject/read - View subject-class assignments.
+GET /assign-subject/edit/{id} - Edit subject-class assignment.
+POST /assign-subject/update/{id} - Update subject-class assignment.
+GET /assign-subject/delete/{id} - Delete subject-class assignment.
+Assign Teacher to Class
+GET /assign-teacher/create - Assign a teacher to a class.
+POST /assign-teacher/store - Store teacher-class assignment.
+GET /assign-teacher/list - View list of teacher-class assignments.
+GET /assign-teacher/read/{id} - View a specific teacher-class assignment.
+GET /assign-teacher/edit/{id} - Edit teacher-class assignment.
+POST /assign-teacher/update/{id} - Update teacher-class assignment.
+Fees Management
+Fee Head Management
+GET /fee-head/create - Create a new fee head.
+POST /fee-head/store - Store a fee head.
+GET /fee-head/read - View all fee heads.
+GET /fee-head/edit/{id} - Edit a fee head.
+POST /fee-head/update/{id} - Update a fee head.
+GET /fee-head/delete/{id} - Delete a fee head.
+Fee Structure Management
+GET /fee-structure/create - Create a new fee structure.
+POST /fee-structure/store - Store a fee structure.
+GET /fee-structure/read - View all fee structures.
+GET /fee-structure/edit/{id} - Edit a fee structure.
+POST /fee-structure/update/{id} - Update a fee structure.
+GET /fee-structure/delete/{id} - Delete a fee structure.
 
 ## Milestones
 <table>
