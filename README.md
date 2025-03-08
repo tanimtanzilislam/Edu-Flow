@@ -47,7 +47,7 @@ Edu-Flow is an online school management system designed to streamline academic o
 
   
 
-The target audience for "Cravings" startup includes urban dwellers in cities like Dhaka and Chattogram, particularly young adults (18–35), working professionals, and students who frequently dine out or order food online. Families seeking convenience, tourists exploring local cuisine, and health-conscious individuals looking for specific meal options are also key segments. Emphasis should be on affordability, local cuisine, and support for mobile payment methods like bKash. Social media-savvy food enthusiasts who rely on reviews and discounts can be engaged through targeted marketing campaigns. By catering to these diverse needs, the app can thrive in Bangladesh's growing food delivery market.
+The target audience for Edu-Flow includes schools, colleges, and educational institutions in cities like Dhaka and Chattogram, particularly school administrators, teachers, students, and parents seeking a streamlined academic experience. Working parents who want real-time updates on their child's progress, institutions looking to digitize operations, and educators needing efficient class management tools are key segments. Emphasis should be on affordability, user-friendly interfaces, and integration with local payment methods like bKash. Tech-savvy students and parents who rely on digital platforms for communication and learning can be engaged through targeted marketing campaigns. By addressing these diverse needs, Edu-Flow can become an essential solution in Bangladesh's evolving education sector.
 
   
   
